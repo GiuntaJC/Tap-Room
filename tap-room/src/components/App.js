@@ -1,11 +1,12 @@
 import React from "react";
+import NewKegControl from "./NewKegControl";
 
 function App(){
   return (
     <React.Fragment>
-      <h1>Tap House</h1>
-      <p><em>Firebase entries not saving!</em></p>
-      <hr/>
+      <div>
+        <NewKegControl />
+      </div>
     </React.Fragment>
   );
 }
