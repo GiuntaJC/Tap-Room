@@ -4,10 +4,10 @@ import PropTypes from 'prop-types';
 function Keg(props) {
   return (
     <React.Fragment>
-      <div onClick={() => props.selection(props.id)}>
+      <div className = "kegClickable" onClick={() => props.selection(props.id)}>
         <p>Name: {props.name}</p>
         <p>Brand: {props.brand}</p>
-        <p>Price per Pint: {props.pricePerPint}</p>
+        <p>Price per Pint: ${props.pricePerPint}</p>
         <p>Proof: {props.proof}</p>
         <p>Quantity Remaining: {props.quantityLeft}</p>
       </div>

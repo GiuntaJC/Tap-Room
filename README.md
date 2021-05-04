@@ -16,10 +16,10 @@ Uses react-create-app; allows the user to create and view kegs of drinks, and tr
 * _Install listed prerequisites following their own listed install instructions_
 * _Download or clone this repository by copying the link from the green "code" dropdown menu and running "git clone {copied link}" in the command line_
 * _open console in project-root/tap-room_
-* _run "dotnet restore" followed by "dotnet build" project-root/tap-room_
-* _run "dotnet tool install --global dotnet-ef" in project-root/tap-room_
-* _run "dotnet run" project-root/tap-room_
-* _use your web browser of choice to navigate to http://localhost:5000_
+* _run "npm install" project-root/tap-room_
+* _run "npm run build" in project-root/tap-room_
+* _run "npm run start" project-root/tap-room_
+* _use your web browser of choice to navigate to http://localhost:3000_
 
 
 ## Known Bugs

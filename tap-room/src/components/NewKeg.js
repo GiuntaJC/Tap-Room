@@ -9,8 +9,8 @@ function NewKeg(props) {
     props.onSubmit({
       name: event.target.name.value,
       brand: event.target.brand.value,
-      pricePerPint: event.target.pricePerPint.value,
-      proof: event.target.proof.value,
+      pricePerPint: parseFloat(event.target.pricePerPint.value),
+      proof: parseInt(event.target.proof.value),
       quantityLeft: 124,
       id: v4(),
     });
